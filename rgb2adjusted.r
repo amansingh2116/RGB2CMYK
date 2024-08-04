@@ -44,7 +44,7 @@ adjust_rgb_with_cmyk <- function(rgb_tuple) {
 }
 
 # Read the input image
-x <- readJPEG("C:\\Users\\amans\\Downloads\\download1.jpeg")
+x <- readJPEG("image_path.jpeg")
 dimn <- dim(x)
 result <- array(0, dim = dimn)
 
